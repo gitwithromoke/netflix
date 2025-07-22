@@ -36,7 +36,6 @@ header{
 }
 nav{
     width: 80%;
-    /* border: 2px solid green; */
     margin: auto;
     align-items: center;
     display: flex;
@@ -55,13 +54,14 @@ nav a button{
 }
 
 .movies{
-    /* border: 2px solid red; */
     width: 50%;
     margin: auto;
+    padding: 40px;
     text-align: center;
 }
 .movies h1{
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 3em;
 }
@@ -69,7 +69,7 @@ nav a button{
     color: white;
 }
 .movies p{
-    padding: 15px;
+    padding: 28px;
     color: white;
 
 }
@@ -170,8 +170,6 @@ h2{
     }
 
 }
-   
-
 @media(max-width:426px){
     .movies input{
         padding: 8px 30px;
