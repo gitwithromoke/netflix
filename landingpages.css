@@ -141,32 +141,32 @@ h2{
     .movies input{
         padding: 12px 46px;
         margin-bottom: 10px;
-        padding-left: 20px;
+        left: 20px;
         justify-content: center;
     }
 }
 @media(max-width:500px){
     .movies input{
         padding: 10px 40px;
-        padding-left: 24px;
+        left: 24px;
        
     }
 }
 @media(max-width:435px){
     .movies input{
-        padding-left: 30px;
+        left: 30px;
     }
 
 }
 @media(max-width:403px){
     .movies input{
-        padding-left: 60px;
+        left: 60px;
     }
 
 }
  @media(max-width:335px){
     .movies input{
-        padding-left: 15gi0px;
+        left: 150px;
     }
 
 }
