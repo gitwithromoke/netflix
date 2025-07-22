@@ -61,7 +61,7 @@ nav a button{
 }
 .movies h1{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     font-weight: bold;
     font-size: 3em;
 }
@@ -115,23 +115,41 @@ h2{
 @media(max-width:1049px){
     .movies h1{
         font-weight:200;
-        font-size: 2.5em;
+        font-size: 3em;
     }
 }
-@media(max-width:740px){
+@media(max-width:1023px){
+    .movies h1{
+        font-weight:200;
+        font-size: 2.5em;
+    }
+
+}
+@media(max-width:889px){
     .movies h1{
         font-weight:200;
         font-size: 2em;
     }
-
 }
-@media(max-width:604px){
+@media(max-width:735px){
     .movies h1{
         font-weight:200;
         font-size: 1.5em;
     }
 }
-@media(max-width:438px){
+@media(max-width:685px){
+    .movies h1{
+        font-weight:200;
+        font-size: 1.2em;
+    }
+}
+@media(max-width:451px){
+    .movies h1{
+        font-weight:200;
+        font-size: 1em;
+    }
+}
+@media(max-width:507px){
     .movies h1{
         font-weight:200;
         font-size: 1em;
